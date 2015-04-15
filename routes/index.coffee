@@ -7,4 +7,4 @@ module.exports =
       posts: []
       
   newPost: (req, res) ->
-  #do nothing
+    res.render 'add_post', title:"Write New Post"
