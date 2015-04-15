@@ -6,6 +6,16 @@ app = require('../app')
 debug = require('debug')('coffeepress:server')
 http = require('http')
 
+normalizePort = (val) ->
+  lport = parseInt(val, 10)
+  if isNaN(lport)
+    # named pipe
+    return val
+  if lport >= 0
+    # lport number
+    return lport
+  false
+  
 ###*
 # Get port from environment and store in Express.
 ###
@@ -16,15 +26,7 @@ port = normalizePort(process.env.PORT or '3000')
 # Normalize a port into a number, string, or false.
 ###
 
-normalizePort = (val) ->
-  lport = parseInt(val, 10)
-  if isNaN(lport)
-    # named pipe
-    return val
-  if lport >= 0
-    # port number
-    return lport
-  false
+
 
 ###*
 # Event listener for HTTP server "error" event.
