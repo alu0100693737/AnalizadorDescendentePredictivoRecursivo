@@ -1,6 +1,6 @@
 {
-  "name": "application-name",
-  "version": "0.0.1",
+  "name": "coffeepress",
+  "version": "0.0.0",
   "private": true,
   "scripts": {
     "start": "nodejs ./bin/www"

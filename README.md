@@ -9,6 +9,10 @@ Practica basada en el analizador lexico en Javascript de Douglas Crockford
 utilizando la tecnica de analisis descendente predictivo recursivo.
 El lenguaje a estudiar es [PL/0](http://en.wikipedia.org/wiki/PL/0)
 
+Utilizaremos Scaffolding para generar con Coffeexpress nuestro repositorio.
+
+Se ejecutará la pag web de forma local con ./bin/www
+
 ##Despliegue Heroku and tests
 
 
