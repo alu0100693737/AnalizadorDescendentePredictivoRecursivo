@@ -1,33 +1,32 @@
-# ETSII ULL Grado de Informatica Asignatura Procesadores de Lenguajes
+# Practica. Analizador Descendente Predictivo Recursivo. #
 
-## Práctica 5: Analizador Sintáctico Recursivo Predictivo.
+Nota: esta pagina ha sido desarrollada usando Marckdown.
+--------------------------------------------------------
 
-## Objetivo:
+### ***Analizador Descendente Predictivo Recursivo***
 
-El objetivo de la práctica consiste en realizar un analizador sintáctico recursivo predictivo o parser para un el antiguo lenguaje PL/0. Además, se desarrollará como una aplicación Ruby-Sinatra. Se hará el despliegue de la página web en heroku.
+Practica basada en el analizador lexico en Javascript de Douglas Crockford
+utilizando la tecnica de analisis descendente predictivo recursivo.
+El lenguaje a estudiar es [PL/0](http://en.wikipedia.org/wiki/PL/0)
+
+##Despliegue Heroku and tests
 
 
+##Github pages and tests
 
-Enlaces
---------------
-- [https://github.com/alu0100693737/Practica5PL]
-- [http://fast-island-2513.herokuapp.com]
-- [http://fast-island-2513.herokuapp.com/tests]
+
+### Javascript application: Analizador Descendente Predictivo Recursivo
+
+### Participantes.
+###### Iván García Campos.
+
+Para probar gulp y karma
+npm install.
+
+Gulp: gulp test
+Karma: node_modules/karma/bin/karma start
+
+### JQuery 
+ jQuery is a cross-platform JavaScript library designed to simplify the client-side scripting of HTML. 
  
-
-
-##### Desarrollada por
-
-*  Juan Francisco Chávez González  [Ver Perfil][1]
-*  Iván García Campos  [Ver Perfil][2]
-
-
-License
-----
-
-MIT
-
-
-[1]:https://github.com/alu0100401165
-[2]:https://github.com/alu0100693737
-
+###### Markdown es un lenguaje de marcado ligero parecido al que se emplea en muchas wikis y basado originalmente en convenciones existentes en el carcado de los correos electronicos. Emplea texto plano, procurando que sea legible pero consiguientdo que se convierta en XHTML correctamente formateado.
