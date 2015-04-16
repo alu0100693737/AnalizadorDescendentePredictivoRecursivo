@@ -11,6 +11,9 @@ El lenguaje a estudiar es [PL/0](http://en.wikipedia.org/wiki/PL/0)
 
 ##Despliegue Heroku and tests
 
+https://pl-analizador.herokuapp.com/
+
+https://pl-analizador.herokuapp.com/test
 
 ##Github pages and tests
 
